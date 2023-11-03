@@ -12,6 +12,7 @@
 		9EBD19422AF5046A008406CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EBD19412AF5046A008406CE /* Assets.xcassets */; };
 		9EBD19452AF5046A008406CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EBD19442AF5046A008406CE /* Preview Assets.xcassets */; };
 		9EBD194C2AF509D2008406CE /* TextSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBD194B2AF509D2008406CE /* TextSample.swift */; };
+		9EBD194E2AF50ABF008406CE /* ShapesSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBD194D2AF50ABF008406CE /* ShapesSample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		9EBD19412AF5046A008406CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EBD19442AF5046A008406CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9EBD194B2AF509D2008406CE /* TextSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSample.swift; sourceTree = "<group>"; };
+		9EBD194D2AF50ABF008406CE /* ShapesSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesSample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				9EBD19412AF5046A008406CE /* Assets.xcassets */,
 				9EBD19432AF5046A008406CE /* Preview Content */,
 				9EBD194B2AF509D2008406CE /* TextSample.swift */,
+				9EBD194D2AF50ABF008406CE /* ShapesSample.swift */,
 			);
 			path = SwiftUIBasics;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				9EBD19402AF50469008406CE /* ContentView.swift in Sources */,
 				9EBD194C2AF509D2008406CE /* TextSample.swift in Sources */,
 				9EBD193E2AF50469008406CE /* SwiftUIBasicsApp.swift in Sources */,
+				9EBD194E2AF50ABF008406CE /* ShapesSample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

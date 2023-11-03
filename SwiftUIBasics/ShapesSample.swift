@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ShapesSample.swift
 //  SwiftUIBasics
 //
 //  Created by Y K on 03.11.2023.
@@ -7,14 +7,13 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ShapesSample: View {
     var body: some View {
-       TextSample()
-            
-        
+        Circle()
+            .foregroundColor(.yellow)
     }
 }
 
 #Preview {
-    ContentView()
+    ShapesSample()
 }
