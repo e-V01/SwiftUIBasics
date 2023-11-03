@@ -4,7 +4,7 @@
 //
 //  Created by Y K on 03.11.2023.
 
-//Order in which we apple modifiers to view amtters since that influnce the View itself
+//Order in which we apply modifiers to view matters since that influnce the View itself
 
 import SwiftUI
 

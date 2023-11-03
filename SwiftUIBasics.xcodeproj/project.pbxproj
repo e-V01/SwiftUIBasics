@@ -15,6 +15,7 @@
 		9EBD194E2AF50ABF008406CE /* ShapesSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBD194D2AF50ABF008406CE /* ShapesSample.swift */; };
 		9EBD19502AF513C2008406CE /* ColorsSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBD194F2AF513C2008406CE /* ColorsSample.swift */; };
 		9EBD19522AF51B48008406CE /* ImagesSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBD19512AF51B48008406CE /* ImagesSample.swift */; };
+		9EBD19542AF51EC6008406CE /* ImagesSample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBD19532AF51EC6008406CE /* ImagesSample2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		9EBD194D2AF50ABF008406CE /* ShapesSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesSample.swift; sourceTree = "<group>"; };
 		9EBD194F2AF513C2008406CE /* ColorsSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsSample.swift; sourceTree = "<group>"; };
 		9EBD19512AF51B48008406CE /* ImagesSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesSample.swift; sourceTree = "<group>"; };
+		9EBD19532AF51EC6008406CE /* ImagesSample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesSample2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				9EBD194D2AF50ABF008406CE /* ShapesSample.swift */,
 				9EBD194F2AF513C2008406CE /* ColorsSample.swift */,
 				9EBD19512AF51B48008406CE /* ImagesSample.swift */,
+				9EBD19532AF51EC6008406CE /* ImagesSample2.swift */,
 			);
 			path = SwiftUIBasics;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EBD19402AF50469008406CE /* ContentView.swift in Sources */,
+				9EBD19542AF51EC6008406CE /* ImagesSample2.swift in Sources */,
 				9EBD194C2AF509D2008406CE /* TextSample.swift in Sources */,
 				9EBD19502AF513C2008406CE /* ColorsSample.swift in Sources */,
 				9EBD19522AF51B48008406CE /* ImagesSample.swift in Sources */,
