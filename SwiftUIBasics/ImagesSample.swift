@@ -3,13 +3,22 @@
 //  SwiftUIBasics
 //
 //  Created by Y K on 03.11.2023.
-//
+
+//Order in which we apple modifiers to view amtters since that influnce the View itself
 
 import SwiftUI
 
 struct ImagesSample: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image(systemName: "person.circle")
+            .resizable()
+//            .font(.system(size: 200))
+//            .imageScale(.large)
+            .foregroundColor(.colorScheme)
+            .scaledToFill()
+            .frame(width: 200, height: 100)
+            .clipped()
+            
     }
 }
 
