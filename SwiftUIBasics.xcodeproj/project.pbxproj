@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9EB6BE162AF6552F00871B0B /* PaddingSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6BE152AF6552F00871B0B /* PaddingSample.swift */; };
 		9EB6BE182AF65B7100871B0B /* SpacersSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6BE172AF65B7100871B0B /* SpacersSample.swift */; };
+		9EB6BE1A2AF6663B00871B0B /* LoopsSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6BE192AF6663B00871B0B /* LoopsSample.swift */; };
 		9EBD193E2AF50469008406CE /* SwiftUIBasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBD193D2AF50469008406CE /* SwiftUIBasicsApp.swift */; };
 		9EBD19402AF50469008406CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBD193F2AF50469008406CE /* ContentView.swift */; };
 		9EBD19422AF5046A008406CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EBD19412AF5046A008406CE /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		9EB6BE152AF6552F00871B0B /* PaddingSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingSample.swift; sourceTree = "<group>"; };
 		9EB6BE172AF65B7100871B0B /* SpacersSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacersSample.swift; sourceTree = "<group>"; };
+		9EB6BE192AF6663B00871B0B /* LoopsSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopsSample.swift; sourceTree = "<group>"; };
 		9EBD193A2AF50469008406CE /* SwiftUIBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EBD193D2AF50469008406CE /* SwiftUIBasicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicsApp.swift; sourceTree = "<group>"; };
 		9EBD193F2AF50469008406CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				9EBD19552AF5222A008406CE /* StacksSample.swift */,
 				9EB6BE152AF6552F00871B0B /* PaddingSample.swift */,
 				9EB6BE172AF65B7100871B0B /* SpacersSample.swift */,
+				9EB6BE192AF6663B00871B0B /* LoopsSample.swift */,
 			);
 			path = SwiftUIBasics;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EBD19562AF5222A008406CE /* StacksSample.swift in Sources */,
+				9EB6BE1A2AF6663B00871B0B /* LoopsSample.swift in Sources */,
 				9EB6BE182AF65B7100871B0B /* SpacersSample.swift in Sources */,
 				9EBD19402AF50469008406CE /* ContentView.swift in Sources */,
 				9EBD19542AF51EC6008406CE /* ImagesSample2.swift in Sources */,
