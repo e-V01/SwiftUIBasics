@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9EABDD932AF7FCE100EB967C /* ScrollViewsSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EABDD922AF7FCE100EB967C /* ScrollViewsSample.swift */; };
 		9EB6BE162AF6552F00871B0B /* PaddingSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6BE152AF6552F00871B0B /* PaddingSample.swift */; };
 		9EB6BE182AF65B7100871B0B /* SpacersSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6BE172AF65B7100871B0B /* SpacersSample.swift */; };
 		9EB6BE1A2AF6663B00871B0B /* LoopsSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6BE192AF6663B00871B0B /* LoopsSample.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9EABDD922AF7FCE100EB967C /* ScrollViewsSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewsSample.swift; sourceTree = "<group>"; };
 		9EB6BE152AF6552F00871B0B /* PaddingSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingSample.swift; sourceTree = "<group>"; };
 		9EB6BE172AF65B7100871B0B /* SpacersSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacersSample.swift; sourceTree = "<group>"; };
 		9EB6BE192AF6663B00871B0B /* LoopsSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopsSample.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				9EB6BE152AF6552F00871B0B /* PaddingSample.swift */,
 				9EB6BE172AF65B7100871B0B /* SpacersSample.swift */,
 				9EB6BE192AF6663B00871B0B /* LoopsSample.swift */,
+				9EABDD922AF7FCE100EB967C /* ScrollViewsSample.swift */,
 			);
 			path = SwiftUIBasics;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				9EB6BE182AF65B7100871B0B /* SpacersSample.swift in Sources */,
 				9EBD19402AF50469008406CE /* ContentView.swift in Sources */,
 				9EBD19542AF51EC6008406CE /* ImagesSample2.swift in Sources */,
+				9EABDD932AF7FCE100EB967C /* ScrollViewsSample.swift in Sources */,
 				9EBD194C2AF509D2008406CE /* TextSample.swift in Sources */,
 				9EBD19502AF513C2008406CE /* ColorsSample.swift in Sources */,
 				9EBD19522AF51B48008406CE /* ImagesSample.swift in Sources */,
