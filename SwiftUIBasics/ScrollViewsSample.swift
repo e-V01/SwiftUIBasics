@@ -19,7 +19,7 @@ struct ScrollViewsSample: View {
                               "chinese",
                               "cakes"]
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             // this way when user scrolls the text if frozen at the top
             Text("Maiami")
                 .font(.largeTitle)
@@ -27,7 +27,7 @@ struct ScrollViewsSample: View {
                 .padding(.leading)
             
             ScrollView(.vertical, showsIndicators: false) {
-                VStack {
+                VStack(spacing: 20) {
                     ForEach(foodDeliveryPhotos, id: \.self) { image in
                         VStack {
                             Image(image)
