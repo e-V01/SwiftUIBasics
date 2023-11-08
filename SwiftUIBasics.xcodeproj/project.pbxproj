@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9E1892282AFBA52600D4ECF8 /* GridsSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1892272AFBA52600D4ECF8 /* GridsSample.swift */; };
+		9E18922A2AFBA7BD00D4ECF8 /* IGProfileSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1892292AFBA7BD00D4ECF8 /* IGProfileSample.swift */; };
 		9EABDD932AF7FCE100EB967C /* ScrollViewsSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EABDD922AF7FCE100EB967C /* ScrollViewsSample.swift */; };
 		9EB6BE162AF6552F00871B0B /* PaddingSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6BE152AF6552F00871B0B /* PaddingSample.swift */; };
 		9EB6BE182AF65B7100871B0B /* SpacersSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6BE172AF65B7100871B0B /* SpacersSample.swift */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		9E1892272AFBA52600D4ECF8 /* GridsSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridsSample.swift; sourceTree = "<group>"; };
+		9E1892292AFBA7BD00D4ECF8 /* IGProfileSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGProfileSample.swift; sourceTree = "<group>"; };
 		9EABDD922AF7FCE100EB967C /* ScrollViewsSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewsSample.swift; sourceTree = "<group>"; };
 		9EB6BE152AF6552F00871B0B /* PaddingSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingSample.swift; sourceTree = "<group>"; };
 		9EB6BE172AF65B7100871B0B /* SpacersSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacersSample.swift; sourceTree = "<group>"; };
@@ -54,6 +56,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E18922B2AFBA7C700D4ECF8 /* Grids */ = {
+			isa = PBXGroup;
+			children = (
+				9E1892272AFBA52600D4ECF8 /* GridsSample.swift */,
+				9E1892292AFBA7BD00D4ECF8 /* IGProfileSample.swift */,
+			);
+			path = Grids;
+			sourceTree = "<group>";
+		};
 		9EBD19312AF50469008406CE = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +84,7 @@
 		9EBD193C2AF50469008406CE /* SwiftUIBasics */ = {
 			isa = PBXGroup;
 			children = (
+				9E18922B2AFBA7C700D4ECF8 /* Grids */,
 				9EBD193D2AF50469008406CE /* SwiftUIBasicsApp.swift */,
 				9EBD193F2AF50469008406CE /* ContentView.swift */,
 				9EBD19412AF5046A008406CE /* Assets.xcassets */,
@@ -87,7 +99,6 @@
 				9EB6BE172AF65B7100871B0B /* SpacersSample.swift */,
 				9EB6BE192AF6663B00871B0B /* LoopsSample.swift */,
 				9EABDD922AF7FCE100EB967C /* ScrollViewsSample.swift */,
-				9E1892272AFBA52600D4ECF8 /* GridsSample.swift */,
 			);
 			path = SwiftUIBasics;
 			sourceTree = "<group>";
@@ -177,6 +188,7 @@
 				9EBD19542AF51EC6008406CE /* ImagesSample2.swift in Sources */,
 				9EABDD932AF7FCE100EB967C /* ScrollViewsSample.swift in Sources */,
 				9EBD194C2AF509D2008406CE /* TextSample.swift in Sources */,
+				9E18922A2AFBA7BD00D4ECF8 /* IGProfileSample.swift in Sources */,
 				9E1892282AFBA52600D4ECF8 /* GridsSample.swift in Sources */,
 				9EBD19502AF513C2008406CE /* ColorsSample.swift in Sources */,
 				9EBD19522AF51B48008406CE /* ImagesSample.swift in Sources */,

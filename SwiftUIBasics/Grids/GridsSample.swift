@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct GridsSample: View {
-    let columns = [GridItem(.fixed(50)), GridItem(.fixed(50))]
+    let columns = [GridItem(.flexible()),
+                   GridItem(.flexible()),
+                   GridItem(.flexible())
+    ]
     var body: some View {
         ScrollView {
             LazyVGrid(columns: columns) {
-                ForEach(0 ... 50, id: \.self) { index in
+                ForEach(0 ... 100, id: \.self) { index in
                 Rectangle()
-                        .frame(width: 50, height: 50)
+                        .frame(height: 50)
                 }
             }
         }
