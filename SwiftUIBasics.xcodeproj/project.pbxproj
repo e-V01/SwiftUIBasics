@@ -10,6 +10,7 @@
 		9E1892282AFBA52600D4ECF8 /* GridsSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1892272AFBA52600D4ECF8 /* GridsSample.swift */; };
 		9E18922A2AFBA7BD00D4ECF8 /* IGProfileSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1892292AFBA7BD00D4ECF8 /* IGProfileSample.swift */; };
 		9E18922D2AFBE07600D4ECF8 /* ButtonsSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E18922C2AFBE07600D4ECF8 /* ButtonsSample.swift */; };
+		9E59EA1D2AFC22E100B30EA6 /* StatePropertySample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E59EA1C2AFC22E100B30EA6 /* StatePropertySample.swift */; };
 		9EABDD932AF7FCE100EB967C /* ScrollViewsSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EABDD922AF7FCE100EB967C /* ScrollViewsSample.swift */; };
 		9EB6BE162AF6552F00871B0B /* PaddingSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6BE152AF6552F00871B0B /* PaddingSample.swift */; };
 		9EB6BE182AF65B7100871B0B /* SpacersSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6BE172AF65B7100871B0B /* SpacersSample.swift */; };
@@ -30,6 +31,7 @@
 		9E1892272AFBA52600D4ECF8 /* GridsSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridsSample.swift; sourceTree = "<group>"; };
 		9E1892292AFBA7BD00D4ECF8 /* IGProfileSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGProfileSample.swift; sourceTree = "<group>"; };
 		9E18922C2AFBE07600D4ECF8 /* ButtonsSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsSample.swift; sourceTree = "<group>"; };
+		9E59EA1C2AFC22E100B30EA6 /* StatePropertySample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePropertySample.swift; sourceTree = "<group>"; };
 		9EABDD922AF7FCE100EB967C /* ScrollViewsSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewsSample.swift; sourceTree = "<group>"; };
 		9EB6BE152AF6552F00871B0B /* PaddingSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingSample.swift; sourceTree = "<group>"; };
 		9EB6BE172AF65B7100871B0B /* SpacersSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacersSample.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				9EB6BE192AF6663B00871B0B /* LoopsSample.swift */,
 				9EABDD922AF7FCE100EB967C /* ScrollViewsSample.swift */,
 				9E18922C2AFBE07600D4ECF8 /* ButtonsSample.swift */,
+				9E59EA1C2AFC22E100B30EA6 /* StatePropertySample.swift */,
 			);
 			path = SwiftUIBasics;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				9E1892282AFBA52600D4ECF8 /* GridsSample.swift in Sources */,
 				9EBD19502AF513C2008406CE /* ColorsSample.swift in Sources */,
 				9EBD19522AF51B48008406CE /* ImagesSample.swift in Sources */,
+				9E59EA1D2AFC22E100B30EA6 /* StatePropertySample.swift in Sources */,
 				9EBD193E2AF50469008406CE /* SwiftUIBasicsApp.swift in Sources */,
 				9EBD194E2AF50ABF008406CE /* ShapesSample.swift in Sources */,
 				9EB6BE162AF6552F00871B0B /* PaddingSample.swift in Sources */,
