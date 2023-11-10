@@ -124,10 +124,18 @@ struct ControlFlowSample: View {
                             
                             
                             
-                            Text("Enable Face ID")
-                                .font(.subheadline)
+                            VStack {
+                                Text("Enable Face ID")
+                                    .font(.subheadline)
                                 .foregroundStyle(darkModeEnab ? Color.white : Color.black)
                             
+                            
+                                if faceIDEnabled {
+                                    Text("Enabled FaceID")
+                                        .font(.caption)
+                                        .foregroundStyle(.gray)
+                                }
+                            }
                             
                         }
                     }

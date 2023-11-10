@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct IGProfileSample: View {
+    @State private var followingButton = false
+    var followingState: String {
+        return followingButton ? "Followed" : "Following"
+    }
+    
     let columns = [GridItem(.flexible()),
                    GridItem(.flexible()),
                    GridItem(.flexible())]
@@ -138,12 +143,17 @@ struct IGProfileSample: View {
                 
                 //action buttons
                 HStack {
-                    Text("Following")
-                        .font(.footnote)
-                        .fontWeight(.semibold)
-                        .frame(width: 150, height: 35)
-                        .overlay(RoundedRectangle(cornerRadius: 4)
-                            .stroke(Color(.systemGray4)))
+                    Button {
+                        followingButton = true
+                    } label: {
+                        Text("\(followingState)")
+                            .font(.footnote)
+                            .fontWeight(.semibold)
+                            .frame(width: 150, height: 35)
+                            .overlay(RoundedRectangle(cornerRadius: 4)
+                                .stroke(Color(.systemGray4)))
+                    }
+
                     
                     Text("Message")
                         .font(.footnote)
