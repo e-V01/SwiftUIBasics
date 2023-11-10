@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct RestaurantsView: View {
-    let photo: String
+    let restaurant: Restaurant
     
     var body: some View {
         VStack {
-            Image(photo)
+            Image(restaurant.imageName)
                 .resizable()
                 .scaledToFill()
                 .frame(width: 350, height: 150)
@@ -22,7 +22,7 @@ struct RestaurantsView: View {
             HStack {
                 //restaurant info
                 VStack(alignment: .leading) {
-                    Text("Haiku - Tampa")
+                    Text(restaurant.name)
                         .font(.system(size: 17))
                         .fontWeight(.bold)
                     
@@ -35,7 +35,7 @@ struct RestaurantsView: View {
                 }
                 Spacer()
                 // rating
-                Text("4.8")
+                Text("\(restaurant.rating)")
                     .font(.caption2)
                     .padding(6)
                     .background(Color(.systemGray5))
@@ -47,5 +47,5 @@ struct RestaurantsView: View {
 }
 
 #Preview {
-    RestaurantsView(photo: "bbq")
+    RestaurantsView(restaurant: Restaurant(imageName: "ukranian", name: "Veselka", rating: Int(4.9)))
 }

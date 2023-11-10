@@ -8,23 +8,23 @@
 import SwiftUI
 
 struct UserRowView: View {
-    let foodName: String
+    let user: User
     
     var body: some View {
         HStack {
-            Image(systemName: "fork.knife.circle")
+            Image(user.icon)
                 .resizable()
                 .scaledToFill()
                 .frame(width: 55, height: 55)
                 .clipShape(Circle())
             
-            Text(foodName)
+            Text(user.name)
                 .font(.subheadline)
             
             Spacer()
 
             
-            Image(systemName: "checkmark")
+            Image(systemName: "paperplane.circle.fill")
                 .font(.title)
                 .foregroundColor(Color(.systemBlue))
         }
@@ -33,5 +33,5 @@ struct UserRowView: View {
 }
 
 #Preview {
-    UserRowView(foodName: "Carrot")
+    UserRowView(user: User(name: "Dan", icon: "venom1"))
 }

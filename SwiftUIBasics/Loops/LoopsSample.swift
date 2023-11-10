@@ -8,19 +8,18 @@
 import SwiftUI
 
 struct LoopsSample: View {
-    let shoppingItems = ["Pepper",
-                        "Garlic",
-                        "Bread",
-                        "Turkey",
-                        "Rosmarine",
-                        "Apples",
-                        "Orange",
-                        "Cucumber"]
+    let users = [ User(name: "Verstappen", icon: "venom2"),
+                 User(name: "Mikainonen", icon: "bbq"),
+                 User(name: "Ayrton", icon: "venom3"),
+                 User(name: "Hamilton", icon: "venom1"),
+                 User(name: "Valteri", icon: "korean"),
+                 User(name: "Lando", icon: "ramen")
+    ]
     
     var body: some View {
         VStack {
-            ForEach(shoppingItems, id: \.self) { items in
-                UserRowView(foodName: items)
+            ForEach(users) { user in
+                UserRowView(user: user)
                 
             }
         }
